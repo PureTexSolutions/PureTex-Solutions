@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PureTex Solutions</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Encabezado -->
+  <header class="bg-green-700 text-white p-6 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">PureTex Solutions</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#productos" class="hover:underline">Productos</a></li>
+          <li><a href="#nosotros" class="hover:underline">Nosotros</a></li>
+          <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="bg-green-100 py-16 text-center">
+    <h2 class="text-4xl font-semibold mb-4">Limpieza y frescura en cada gota</h2>
+    <p class="text-lg mb-6">Innovación y cuidado para tu hogar y negocio</p>
+    <a href="#productos" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-600 transition">Ver productos</a>
+  </section>
+
+  <!-- Sección de productos -->
+  <section id="productos" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-10">Nuestros productos</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="text-xl font-semibold mb-2">Detergente PureTex Color</h4>
+          <p>Protege y revitaliza los colores de tus prendas. Aroma fresco y duradero.</p>
+          <p class="mt-2 font-bold">Desde $110</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="text-xl font-semibold mb-2">Suavizante Primaveral</h4>
+          <p>Suavidad excepcional con fragancia fresca que perdura.</p>
+          <p class="mt-2 font-bold">Desde $90</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="text-xl font-semibold mb-2">Jabón HerbalCare</h4>
+          <p>Con extractos naturales que limpian e hidratan tus manos.</p>
+          <p class="mt-2 font-bold">Desde $110</p>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="#contacto" class="text-green-700 hover:underline">Solicita tu cotización</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección sobre nosotros -->
+  <section id="nosotros" class="bg-green-50 py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-4">Sobre PureTex Solutions</h3>
+      <p class="max-w-3xl mx-auto text-lg">Fundada en 2020, PureTex Solutions ofrece soluciones sostenibles para lavanderías y tintorerías. Nos enfocamos en la eficiencia, calidad y cuidado ambiental. Estamos registrados ante el IMPI.</p>
+    </div>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto" class="py-16 bg-white">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-6">Contáctanos</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full p-3 border rounded">
+        <input type="email" placeholder="Correo electrónico" class="w-full p-3 border rounded">
+        <textarea placeholder="Mensaje" rows="5" class="w-full p-3 border rounded"></textarea>
+        <button type="submit" class="bg-green-700 text-white px-6 py-3 rounded hover:bg-green-600 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-green-700 text-white text-center p-4">
+    <p>&copy; 2025 PureTex Solutions. Marca registrada ante el IMPI.</p>
+  </footer>
+
+</body>
+</html>
